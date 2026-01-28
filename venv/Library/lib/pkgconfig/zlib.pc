@@ -1,0 +1,13 @@
+prefix=D:/Customer Churn/Lloyds-Banking-Group-Customer-Churn-Analysis/venv/Library
+exec_prefix=D:/Customer Churn/Lloyds-Banking-Group-Customer-Churn-Analysis/venv/Library
+libdir=D:/Customer Churn/Lloyds-Banking-Group-Customer-Churn-Analysis/venv/Library/lib
+sharedlibdir=D:/Customer Churn/Lloyds-Banking-Group-Customer-Churn-Analysis/venv/Library/lib
+includedir=D:/Customer Churn/Lloyds-Banking-Group-Customer-Churn-Analysis/venv/Library/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.3.1
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
